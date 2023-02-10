@@ -1,0 +1,9 @@
+.btn-light{
+    background: rgb(104 117 245) !important;
+    color: aliceblue;
+}
+.logo{
+    color: rgb(104 117 245);
+    font-weight:bolder;
+    font-size: 30px;
+}
