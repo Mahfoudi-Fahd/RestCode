@@ -1,12 +1,15 @@
+{{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> --}}
+
 <nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
+    <div class=" mx-auto navig">
+        <div class="mx-4 flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a class="Logo" href="{{ route('dashboard') }}">
-                       RestCode {{-- <x-jet-application-mark class="block h-9 w-auto" /> --}}
+                    <a class="" href="{{ URL('/') }}">
+                        <img src="/img/logo-white.png" style="height:40px;" alt="">
+                        <small style="font-size: 10px; font-weight: 700; margin-top: -20px;">RESTAURANT</small>
                     </a>
                 </div>
 

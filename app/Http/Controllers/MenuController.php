@@ -59,6 +59,20 @@ class MenuController extends Controller
         return view('show',compact('menu'));
         // return view('show', ['menu' => $menu[0]]);   
  }
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+
+   public function welcome()
+    {
+        $menus = DB::table('menus')->get();  
+        // return $menus;
+    return view('welcome',compact('menus'));
+
+    }
 
     /**
      * Show the form for editing the specified resource.

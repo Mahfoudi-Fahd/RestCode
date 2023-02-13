@@ -38,4 +38,6 @@ Route::controller(MenuController::class)->group(function(){
     Route::put('menu/update/{id}','update')->name('menu.update');
     Route::get('menu/delete/{id}','destroy')->name('menu.delete');
     Route::get('menu/show/{id}','show')->name('menu.show');
+    Route::get('/','welcome');
+
 });

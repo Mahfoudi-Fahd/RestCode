@@ -2,8 +2,91 @@
     background: rgb(104 117 245) !important;
     color: aliceblue;
 }
-.logo{
-    color: rgb(104 117 245);
+.Logo{
+    color: #dfdfdf;
     font-weight:bolder;
-    font-size: 30px;
+    font-size: 15px;
+    text-decoration: underline;
 }
+.navig{
+    background:     rgb(189, 189, 189);
+}
+
+.navbar{
+   padding: 0% !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+
+  }
+  
+ 
+  
+  .card {
+    position: relative;
+    height: 350px;
+    box-shadow: 0 40px 60px -6px black;
+    border: none;
+    /* z-index: -1; */
+
+
+  }
+  
+
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    background: none;
+    position: relative;
+    z-index: 1;
+    font-size: 3.5rem;
+    font-family: fantasy;
+    color: rgb(249 249 249 / 82%);
+  }
+  
+  .card img {
+       border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    z-index: -0.5;
+
+  }
+  
+  .card-desc {
+    display: block;
+    font-size: 1.2rem;
+    position: absolute;
+    height: 0;
+    top: 0;
+    opacity: 0;
+    padding: 18px 8%;
+    background-color: white;
+    overflow-y: scroll;
+    transition: 0.8s ease;
+    
+  }
+  
+  .card:hover .card-desc {
+    opacity: 1;
+    height: 100%;
+  }
+ .card:hover .title{
+    opacity: 0;
+    transition: 0.8s;
+
+    
+ }
+  
+  
