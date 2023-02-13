@@ -36,6 +36,9 @@
       <div class="form-group mt-4">
         <label for="title">Title</label>
         <input class="form-control mt-2" name="title" id="title" placeholder="Title">
+        @error('title')
+        <small class="text-danger">{{$message}}</small>
+        @enderror
       </div>
       <div class="form-group mt-3">
         <label for="day">Day</label>
@@ -47,21 +50,26 @@
           <option>Thursday</option>
           <option>Friday</option>
         </select>
+        @error('day')
+        <small class="text-danger">{{$message}}</small>
+        @enderror
       </div>
       <div class="form-group mt-3">
         <label for="description">Description</label>
         <textarea class="form-control mt-2" name="description" id="description" rows="3"></textarea>
+        @error('day')
+        <small class="text-danger">{{$message}}</small>
+        @enderror
       </div>
       <div class="d-flex justify-content-center">
-        <a href="" class="btn btn-light mt-4 col-md-4 "><button type="submit" class="">create</button></a>
-
+        <button type="submit" class="col-md-4 mt-4  btn btn-light">Create</button>
       </div>
     </form>
 {{-- --------------------------------------------------------}}
     
     <div class="py-12">
         <div class="">
-          <div class="container">
+          <div class="container" style="overflow-x:auto;">
             <table class="table">
               <thead>
                 <tr>
