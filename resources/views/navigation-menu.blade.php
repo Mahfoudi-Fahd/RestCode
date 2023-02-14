@@ -2,14 +2,14 @@
 
 <nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
-    <div class=" mx-auto navig">
+    <div class=" mx-auto ">
         <div class="mx-4 flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a class="" href="{{ URL('/') }}">
-                        <img src="/img/logo-white.png" style="height:40px;" alt="">
-                        <small style="font-size: 10px; font-weight: 700; margin-top: -20px;">RESTAURANT</small>
+                        <img src="/img/logo-black.png" style="height:40px;" alt="">
+                        <small style="font-size: 10px; font-weight: 700; margin-top: -20px; margin-left:20px">RESTAURANT</small>
                     </a>
                 </div>
 

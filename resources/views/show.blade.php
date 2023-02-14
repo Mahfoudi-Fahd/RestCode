@@ -5,7 +5,7 @@
 
 <x-app-layout>
     <section class="d-flex justify-content-center">
-        <div class="card mt-5" style="width: 40rem;">
+        <div class="container  mt-5" style="width: 40rem;">
             <img src="../../img/299999752_392313242960766_7814705602697265711_n.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
                 {{-- @dump($menu[0]); --}}
